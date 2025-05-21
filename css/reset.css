@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:200,300,400,500,700&display=swap&subset=korean');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-break: keep-all;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+}
+
+html{
+    font-family: 'Noto Sans KR', '돋움', dotum, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    word-break: break-all;
+    -ms-word-break: break-all;
+    font-family:'Noto Sans KR','돋움', dotum, sans-serif;
+    -webkit-text-size-adjust: 100% !important;
+    -moz-text-size-adjust: 100% !important;
+    -ms-text-size-adjust: 100% !important;
+ 
+ }
+ 
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ th,
+ td,
+ input,
+ textarea,
+ select,
+ option {
+    color: #000000;
+    font-family: 'Noto Sans KR', '돋움', dotum, sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+ }
+ 
+ ul,
+ ol,
+ li {
+    list-style: none;
+ }
+ 
+ img,
+ input,
+ select,
+ textarea {
+    vertical-align: middle;
+ }
+ 
+ a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ 
+ a:hover {
+    color: inherit;
+    text-decoration: none;
+ }
+ 
+ img {
+    max-width: 100%;
+ }
